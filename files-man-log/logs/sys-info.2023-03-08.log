@@ -1,0 +1,160 @@
+16:50:14.124 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 70367 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+16:50:14.127 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+16:50:15.327 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+16:50:15.328 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:50:15.328 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:50:15.476 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:50:15.895 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+16:50:15.925 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.308 seconds (JVM running for 3.085)
+16:50:57.834 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 70377 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+16:50:57.838 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+16:50:59.016 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+16:50:59.017 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:50:59.017 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:50:59.193 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:50:59.612 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+16:50:59.642 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.287 seconds (JVM running for 3.779)
+16:51:28.960 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:51:29.007 [http-nio-8081-exec-1] INFO  c.f.f.FilesController - [test,29] - aaaa
+16:54:50.538 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 70418 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+16:54:50.541 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+16:54:51.647 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+16:54:51.648 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:54:51.649 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:54:51.810 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:54:52.334 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+16:54:52.366 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.301 seconds (JVM running for 3.192)
+16:55:06.170 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:55:13.253 [http-nio-8081-exec-2] INFO  c.f.f.FilesController - [saveFile,38] - md5=====>:64c123bb7edfa06fe353f0be466604c9
+17:26:11.214 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 70992 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+17:26:11.221 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+17:26:12.614 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+17:26:12.616 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:26:12.616 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:26:12.746 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:26:13.621 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+17:26:13.654 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 3.007 seconds (JVM running for 4.199)
+17:30:15.781 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 71033 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+17:30:15.785 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+17:30:17.368 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+17:30:17.369 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:30:17.370 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:30:17.498 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:30:18.358 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+17:30:18.395 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 3.24 seconds (JVM running for 4.258)
+17:30:43.150 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:30:43.273 [http-nio-8081-exec-2] INFO  c.f.f.FilesController - [saveFile,46] - md5=====>:64c123bb7edfa06fe353f0be466604c9
+17:30:43.310 [http-nio-8081-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:30:43.777 [http-nio-8081-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:31:24.304 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:31:24.325 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:31:30.159 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 71058 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+17:31:30.162 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+17:31:31.611 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+17:31:31.613 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:31:31.613 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:31:31.740 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:31:32.585 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+17:31:32.615 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.953 seconds (JVM running for 3.901)
+17:31:50.729 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:31:50.842 [http-nio-8081-exec-2] INFO  c.f.f.FilesController - [saveFile,46] - md5=====>:64c123bb7edfa06fe353f0be466604c9
+17:31:50.885 [http-nio-8081-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:33:33.237 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 71115 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+17:33:33.241 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+17:33:34.596 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+17:33:34.598 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:33:34.598 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:33:34.730 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:33:35.570 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+17:33:35.601 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.88 seconds (JVM running for 3.826)
+17:34:04.256 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:34:04.373 [http-nio-8081-exec-1] INFO  c.f.f.FilesController - [saveFile,46] - md5=====>:64c123bb7edfa06fe353f0be466604c9
+17:34:04.411 [http-nio-8081-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:34:04.560 [http-nio-8081-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:40:16.658 [http-nio-8081-exec-5] INFO  c.f.f.FilesController - [saveFile,46] - md5=====>:64c123bb7edfa06fe353f0be466604c9
+17:41:24.706 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:41:24.743 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:41:36.299 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 71301 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+17:41:36.302 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+17:41:37.640 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+17:41:37.641 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:41:37.642 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:41:37.767 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:41:38.608 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+17:41:38.644 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.795 seconds (JVM running for 3.759)
+17:41:50.522 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:41:50.623 [http-nio-8081-exec-1] INFO  c.f.f.FilesController - [saveFile,45] - md5=====>:64c123bb7edfa06fe353f0be466604c9
+17:41:50.660 [http-nio-8081-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:41:50.823 [http-nio-8081-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:45:28.467 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:45:28.488 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:45:35.562 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 71372 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+17:45:35.565 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+17:45:36.930 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+17:45:36.931 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:45:36.931 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:45:37.048 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:45:37.880 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+17:45:37.913 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.8 seconds (JVM running for 3.635)
+17:45:49.899 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:45:49.994 [http-nio-8081-exec-1] INFO  c.f.f.FilesController - [saveFile,46] - md5=====>:64c123bb7edfa06fe353f0be466604c9
+17:45:50.070 [http-nio-8081-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:45:50.200 [http-nio-8081-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:46:30.436 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:46:30.458 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:46:34.066 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 71395 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+17:46:34.069 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+17:46:35.449 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+17:46:35.450 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:46:35.451 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:46:35.576 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:46:36.431 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+17:46:36.461 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.86 seconds (JVM running for 3.714)
+17:46:41.825 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:46:41.929 [http-nio-8081-exec-2] INFO  c.f.f.FilesController - [saveFile,46] - md5=====>:64c123bb7edfa06fe353f0be466604c9
+17:46:42.018 [http-nio-8081-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:46:42.143 [http-nio-8081-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:47:51.999 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:47:52.018 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:47:55.590 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 71465 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+17:47:55.599 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+17:47:56.958 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+17:47:56.960 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:47:56.960 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:47:57.086 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:47:57.921 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+17:47:57.951 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.843 seconds (JVM running for 3.747)
+17:48:06.742 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:48:06.859 [http-nio-8081-exec-2] INFO  c.f.f.FilesController - [saveFile,46] - md5=====>:64c123bb7edfa06fe353f0be466604c9
+17:48:06.944 [http-nio-8081-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:48:07.068 [http-nio-8081-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:50:15.607 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:50:15.625 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:50:20.942 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 71501 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+17:50:20.945 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+17:50:22.346 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+17:50:22.348 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:50:22.348 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:50:22.473 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:50:23.328 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+17:50:23.359 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.856 seconds (JVM running for 3.654)
+17:50:31.648 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:50:31.745 [http-nio-8081-exec-2] INFO  c.f.f.FilesController - [saveFile,46] - md5=====>:64c123bb7edfa06fe353f0be466604c9
+17:50:31.828 [http-nio-8081-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:50:31.959 [http-nio-8081-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:50:31.995 [http-nio-8081-exec-2] INFO  c.f.f.FilesController - [saveFile,49] - count=====>:6
+17:53:51.001 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:53:51.024 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:53:57.440 [main] INFO  c.f.f.FilesManApplication - [logStarting,55] - Starting FilesManApplication using Java 1.8.0_333 on 192.168.1.10 with PID 71540 (/Users/zhaoxiangyuan/Downloads/files-man/target/classes started by zhaoxiangyuan in /Users/zhaoxiangyuan/Downloads/files-man)
+17:53:57.443 [main] INFO  c.f.f.FilesManApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+17:53:58.810 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+17:53:58.812 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:53:58.812 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+17:53:58.932 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:53:59.790 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+17:53:59.822 [main] INFO  c.f.f.FilesManApplication - [logStarted,61] - Started FilesManApplication in 2.831 seconds (JVM running for 3.702)
+17:54:20.332 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:54:20.449 [http-nio-8081-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:54:20.603 [http-nio-8081-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:55:12.959 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:55:12.989 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
