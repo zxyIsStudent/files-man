@@ -10,7 +10,10 @@ public class MyWebMVCConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/file/**")
                 .addResourceLocations("file:/Users/zhaoxiangyuan/Documents/")
-                .addResourceLocations("file:/Users/zhaoxiangyuan/Documents/img/");
+                .addResourceLocations("file:/Users/zhaoxiangyuan/Documents/img/")
+                .addResourceLocations("file:/Users/zhaoxiangyuan/Documents/22/")
+                .addResourceLocations("file:/Users/zhaoxiangyuan/Documents/33/")
+        ;
 
     }
 

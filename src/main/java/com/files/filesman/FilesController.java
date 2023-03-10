@@ -1,10 +1,12 @@
 package com.files.filesman;
 
 import ch.qos.logback.core.util.FileUtil;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.files.filesman.err.ApiException;
 import com.files.filesman.mapper.FilesInformMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +34,7 @@ import java.util.Arrays;
 @RequestMapping("files")
 public class FilesController {
 
-    public static String path = "/Users/zhaoxiangyuan/Documents/img/";
+    public static String path = "/Users/zhaoxiangyuan/Documents/";
 
     @Resource
     private FilesInformMapper informMapper;
@@ -67,7 +69,12 @@ public class FilesController {
     }
     @PostMapping("uploads")
     @Async
-    public void saveFiles(@RequestParam("file")MultipartFile[] files) throws Exception {
+    public void saveFiles(@RequestParam("file")MultipartFile[] files,int userId) throws Exception {
+        String newPath = path + userId+"/" ;
+        File f1 = new File(newPath);
+        if (!f1.exists()) {
+            throw new ApiException("文件家不存在");
+        }
         Arrays.stream(files)
                 .parallel()
                 .forEach(file->{
@@ -81,12 +88,14 @@ public class FilesController {
                     }
                     FilesInform inform = new FilesInform();
                     inform.setFileMd5(md5);
+                    inform.setUserId(userId);
                     inform.setFileName(name);
-                    inform.setFilePath(path + name);
+
+                    inform.setFilePath(newPath+ name);
                     informMapper.insert(inform);
 
 
-                    File f = new File(path + file.getOriginalFilename());
+                    File f = new File(newPath + file.getOriginalFilename());
                     try {
                         file.transferTo(f);
                     } catch (IOException e) {
@@ -138,9 +147,17 @@ public class FilesController {
 //    }
 
     @GetMapping("/page")
-    public IPage<FilesInform> getPage(@RequestParam( defaultValue = "1")int pageNum, @RequestParam( defaultValue = "10")int pageSize, Object query) {
-        Page<FilesInform> page = new Page<>(pageNum,pageSize);
+    public IPage<FilesInform> getPage(@RequestParam(defaultValue = "1") int pageNum, @RequestParam(defaultValue = "10") int pageSize, int userId) {
+        String newPath = path + userId+"/" ;
+        File f1 = new File(newPath);
+        if (!f1.exists()) {
+            throw new ApiException("文件家不存在");
+        }
+        Page<FilesInform> page = new Page<>(pageNum, pageSize);
         page.addOrder(OrderItem.desc("file_id"));
-        return informMapper.selectPage(page,new QueryWrapper<>());
+        LambdaQueryWrapper<FilesInform> eq = new QueryWrapper<FilesInform>().lambda().eq(FilesInform::getUserId, userId);
+        return informMapper.selectPage(page, eq);
     }
+
+
 }
